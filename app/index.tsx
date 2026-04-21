@@ -26,14 +26,14 @@ const slides: Slide[] = [
     title: "Stay On Top of Your Day",
     description:
       "Organize your tasks in one place and never forget what needs to get done.",
-    image: require("../assets/images/Docbackground2.png"),
+    image: require("../assets/images/DocBackground.png"),
   },
   {
     id: 2,
     title: "Track Your Progress",
     description:
       "Mark tasks as done and watch your productivity grow one check at a time.",
-    image: require("../assets/images/Docbackground3.png"),
+    image: require("../assets/images/DocBackground.png"),
   },
   {
     id: 3,

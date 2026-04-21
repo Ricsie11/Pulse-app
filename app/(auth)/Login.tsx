@@ -30,7 +30,7 @@ export default function Login() {
         <Text style={styles.text2}>Welcome</Text>
 
         {/* Email Section */}
-        <Text style={styles.label}>Email:</Text>
+        <Text style={styles.label}>Email or Mobile Number:</Text>
         <View style={styles.inputContainer}>
           <TextInput
             value={email}
@@ -38,7 +38,7 @@ export default function Login() {
             onChangeText={setEmail}
             keyboardType="email-address"
             autoCapitalize="none"
-            placeholderTextColor="#7a7a7a"
+            placeholderTextColor="#7c4072"
             style={styles.textInput}
           />
         </View>
@@ -51,7 +51,7 @@ export default function Login() {
             secureTextEntry={!showPassword}
             placeholder="..............."
             onChangeText={setPassword}
-            placeholderTextColor="#7a7a7a"
+            placeholderTextColor="#7c4072"
             style={[styles.textInput, { letterSpacing: 0.5 }]}
           />
           <TouchableOpacity
