@@ -77,7 +77,7 @@ export default function Home() {
   const [selected, setSelected] = useState("🔥 All");
 
   return (
-    // 👇 edges={["top"]} removes the bottom safe area gap
+    //edges={["top"]} removes the bottom safe area gap
     <SafeAreaView style={styles.container} edges={["top"]}>
 
       {/* PURPLE BACKGROUND */}
