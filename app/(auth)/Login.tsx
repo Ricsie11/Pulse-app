@@ -86,7 +86,7 @@ export default function Login() {
         />
 
         <Text style={{ textAlign: "center", marginTop: 20 }} >
-          Don't have an account? <Link style={{ color: "#7a3b83", fontWeight: "600" }} href="/(auth)/Register">Sign Up</Link>
+          {"Don't have an account?"} <Link style={{ color: "#7a3b83", fontWeight: "600" }} href="/(auth)/Register">Sign Up</Link>
         </Text>
       </View>
     </SafeAreaView>
